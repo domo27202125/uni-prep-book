@@ -1,0 +1,81 @@
+#title{
+ text-align: center;
+color:green;
+text-style:bold;
+text-size:500px;
+text-decoration:Underline;
+}
+
+#wrapper{
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gird-emplate-row: 500px;
+  grid-gap: 10px;
+  justify-items:center;
+  
+  
+}
+
+#pic{   
+height:500px; 
+position:center; 
+/*    margin-right:25px;  */
+margin-left:10px; 
+ padding-left:17px; 
+   padding-right:20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+/*   justify-items:center; */
+}
+
+
+#name{
+  text-size:35px;
+  text-align:center;
+  font-weight:20px;
+  color:black;
+    text-decoration: Underline;
+text-decoration-color: Blue;
+  text-decoration-style: wavy;
+  resize: both;
+  overflow: auto;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#quote{
+   text-size:35px;
+  text-align:center;
+  font-weight:20px;
+  color:black;
+  font-style:italic;
+   quotes: "'" "'";
+  text-decoration: Underline;
+text-decoration-color: Green;
+  text-decoration-style: double;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#superlative{
+   text-size:35px;
+  text-align:center;
+  font-weight:20px;
+  color:black;
+    text-decoration: Underline;
+text-decoration-color: blue;
+  text-decoration-style: wavy;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.back:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+body{
+height: 100vh;
+background: grey;
+outline: 5px dotted green;
+}
+.n-resize {cursor: n-resize;}
+  
